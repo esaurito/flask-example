@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title>{% block title %}Flask Example{% endblock %}</title>
+  <link rel="stylesheet" type="text/css" href="/s/base.css">
+  {% block head %}{% endblock %}
+</head>
+<body>
+
+{% with messages = get_flashed_messages() %}
+  {% if messages %}
+  <div class="flash_messages">
+    {% for message in messages %}
+      <p>{{ message }}</p>
+    {% endfor %}
+  </div>
+  {% endif %}
+{% endwith %}
+
+{% block body %}{% endblock %}
+
+<script src="/s/base.js"></script>
+</body>
+</html>

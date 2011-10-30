@@ -1,0 +1,17 @@
+body {
+    background: #eee;
+}
+
+.flash_messages {
+    color: #edf;
+    font-weight: bold;
+    background: #58a;
+    padding: 0.1em 1em;
+}
+
+.error {
+    color: #fff;
+    background: #f00;
+    margin: 0.5em 0;
+    padding: 0.5em;
+}

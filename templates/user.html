@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+
+{% block title -%}
+  {{ super() }} - {{ username }}
+{%- endblock %}
+
+
+{% block body %}
+<p>Logged in as {{ username }}.</p>
+<p><a href="/logout">Logout</a></p>
+{% endblock %}

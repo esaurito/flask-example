@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% from "macros.html" import user_form %}
+
+
+{% block body %}
+<h1>Register</h1>
+{{ user_form("/register", "Register", error) }}
+{% endblock %}
