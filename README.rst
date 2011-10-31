@@ -9,7 +9,7 @@ About
 
 This example simulates a simple website that users can signup and login.
 
-It uses Flask_, jinja2_, werkzeug_ and dal.py (from web2py).
+It uses Flask_, jinja2_, Flask-Bcrypt_ and dal.py (from web2py).
 
 Just run "python main.py" to start the server.
 
@@ -36,4 +36,4 @@ All other files are licensed under the MIT License.
 
 .. _Flask: http://flask.pocoo.org/
 .. _jinja2: http://jinja.pocoo.org/
-.. _werkzeug: http://werkzeug.pocoo.org/
+.. _Flask-Bcrypt: https://github.com/maxcountryman/flask-bcrypt

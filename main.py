@@ -7,7 +7,7 @@ from functools import wraps
 
 from jinja2 import FileSystemLoader
 
-from werkzeug.security import check_password_hash, generate_password_hash
+from flaskext.bcrypt import check_password_hash, generate_password_hash
 
 import db
 import os
